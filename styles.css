@@ -5,8 +5,8 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(rgba(18,66,33,0.5), rgba(18,66,33,0.5)), url('top-view-workspace-with-copy-space-notebook-top-agenda.jpg');
 
-  background-size: contain;
-  background-position: center center;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -309,7 +309,7 @@ section {
         }
 
         #about img {
-            max-width: 20%;
+            max-width: 30%;
             margin-right: 20px;
         }
 
