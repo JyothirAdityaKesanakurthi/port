@@ -1,14 +1,12 @@
 
-@media only screen and (max-width: 768px) {
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(rgba(18,66,33,0.5), rgba(18,66,33,0.5)), url('top-view-workspace-with-copy-space-notebook-top-agenda.jpg');
 
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -337,5 +335,4 @@ h2:hover {
 h2::selection {
    
     color: teal; /* Set the text color during selection */
-}
 }
